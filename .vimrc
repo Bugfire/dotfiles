@@ -20,7 +20,9 @@ let g:clang_cpp_options = '-std=c++1z -stdlib=libc++ --pedantic-errors'
 " TypeScript
 " http://qiita.com/Quramy/items/e0f004695e8bcda7604e
 NeoBundle 'Shougo/vimproc'
-NeoBundle 'Quramy/tsuquyomi'
+if version > 703
+ NeoBundle 'Quramy/tsuquyomi'
+endif
 
 NeoBundle 'leafgarland/typescript-vim'
 NeoBundle 'jason0x43/vim-js-indent'
