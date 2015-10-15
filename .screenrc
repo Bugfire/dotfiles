@@ -1,0 +1,15 @@
+#
+
+defutf8 on
+defencoding utf8
+encoding utf-8 utf-8
+
+escape ^T^T
+
+defscrollback 1000
+
+startup_message off
+
+autodetach on
+
+hardstatus alwayslastline "%m/%d %02c:%s %`%-w%{=b bw}%n %t%{-}%+w $STY (%l)"
