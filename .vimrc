@@ -8,7 +8,7 @@ call neobundle#begin(expand('~/.vim/bundle/'))
 
 " Syntax
 NeoBundle 'scrooloose/syntastic'
-let g:syntastic_javascript_checker = "jshint" "JavaScriptのSyntaxチェックはjshintで
+"let g:syntastic_javascript_checker = "jshint" "JavaScriptのSyntaxチェックはjshintで
 let g:syntastic_check_on_open = 0 "ファイルオープン時にはチェックをしない
 let g:syntastic_check_on_save = 1 "ファイル保存時にはチェックを実施
 
