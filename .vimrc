@@ -62,4 +62,4 @@ set statusline+=L,\ %c
 set statusline+=C
 
 highlight StatusLine term=none cterm=none ctermfg=none ctermbg=lightgrey
-highlight CursorLine term=none cterm=none ctermfg=none ctermbg=lightgrey
+" highlight CursorLine term=none cterm=none ctermfg=none ctermbg=lightgrey
